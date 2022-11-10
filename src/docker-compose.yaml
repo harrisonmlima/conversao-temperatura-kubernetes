@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  conversao-temperatura:
-    build: .
-    command: "server.js"
-    ports:
-      - 8080:8080
-
